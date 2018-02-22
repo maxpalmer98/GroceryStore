@@ -25,7 +25,7 @@ int main()
     list[numItems] = item;
     numItems++;
     }
-    else if (numItems >= 5&&(input == 'a'&&input == 'A')) 
+    else if (numItems >= 5&&(input == 'a'||input == 'A')) 
     {
     cout<<"You'll need a bigger list!"<<endl;
     input = 'q';
