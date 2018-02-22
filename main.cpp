@@ -18,7 +18,7 @@ int main()
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
   
-    if ((input == 'A'||input == 'a')&& numItems <= 5)
+    if ((input == 'A'||input == 'a')&& numItems <= 4)
     {
     cout<<"What is the item?"<<endl;
     cin>>item;
@@ -28,6 +28,7 @@ int main()
     else if (numItems >= 5&&(input != 'q'&&input != 'Q')) 
     {
     cout<<"You'll need a bigger list!"<<endl;
+    cout<<"What is the item?"<<endl;
     }
 
   }
