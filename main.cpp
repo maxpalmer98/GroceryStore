@@ -18,7 +18,7 @@ int main()
   cout<<"\nYour choice (A/Q): ";
   cin>>input;
   
-    if ((input == 'A'||input == 'a')&& numItems <= 4)
+    if ((input == 'A'||input == 'a')&& numItems <= 5)
     {
     cout<<"What is the item?"<<endl;
     cin>>item;
