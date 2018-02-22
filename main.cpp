@@ -25,15 +25,13 @@ int main()
     list[numItems] = item;
     numItems++;
     }
-    else if (numItems == 5&&(input != 'q'&&input != 'Q')) 
+    else if (numItems < 5&&(input != 'q'&&input != 'Q')) 
     {
     cout<<"What is the item?"<<endl;
     cout<<"You'll need a bigger list!"<<endl;
+    input = 'Q';
     }
-    else
-    {
-    numItems++;
-    }
+    
   }
   while(input != 'q'&&input != 'Q');
   return 0;
