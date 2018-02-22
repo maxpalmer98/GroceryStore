@@ -27,8 +27,8 @@ int main()
     }
     else if (numItems >= 5&&(input == 'a'||input == 'A')) 
     {
+    cout<<"What is the item?"<<endl;
     cout<<"You'll need a bigger list!"<<endl;
-    input = 'q';
     }
     
   }
