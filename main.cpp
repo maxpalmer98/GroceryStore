@@ -7,6 +7,7 @@ int main()
 {
   vector<string> list; //vector for list
   int numItems = 0;
+  int itemNum = 1;
   char input;
   string item;
 
@@ -38,7 +39,8 @@ int main()
     cout<<"==ITEMS TO BUY=="<<endl;
     for(int i = 0; i < list.size(); i++)
     {
-      cout<<list[i]<<endl;
+      cout<<itemNum<<" "<<list[i]<<endl;
+      itemNum++;
     }
   } 
   return 0;
