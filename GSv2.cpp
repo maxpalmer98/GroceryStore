@@ -1,11 +1,10 @@
 #include<iostream>
 #include<string>
-#include<vector>
 using namespace std;
 
 int main()
 {
-  vector<string> list; //vector for list
+  string list[5]; //array of 5 strings
   int numItems = 0;
   char input;
   string item;
@@ -22,27 +21,6 @@ int main()
     if (input == 'A'||input == 'a')
     {
       cout<<"What is the item?"<<endl;
-<<<<<<< HEAD
-      cin>>item;
-      list.push_back(item);
-      numItems++; 
-    }
-  }
-  while(input != 'q'&&input != 'Q');
-
-  if (numItems == 0)
-  {
-    cout<<"No items to buy!"<<endl;
-  }
-  
-  for(int i = 0; i < list.size(); i++)
-  {
-    cout<<list[i]<<endl;
-  }
-
-  
-  return 0;
-=======
       if(numItems < 5)
       {
         cin>>item;
@@ -68,5 +46,4 @@ int main()
      cout<<"\n5 "<<list[4];
    }
    return 0;
->>>>>>> 9211b7bb8d8020d32561741de5f52f91eb93f801
 }
