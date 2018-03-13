@@ -39,6 +39,6 @@ int main()
     cout<<list[i]<<endl;
   }
 
-  
+}  
   return 0;
 
