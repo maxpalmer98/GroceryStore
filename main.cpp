@@ -33,12 +33,13 @@ int main()
   {
     cout<<"No items to buy!"<<endl;
   }
-  
-  for(int i = 0; i < list.size(); i++)
+  else
   {
-    cout<<list[i]<<endl;
-  }
-
-  
+    cout<<"==ITEMS TO BUY=="<<endl;
+    for(int i = 0; i < list.size(); i++)
+    {
+      cout<<list[i]<<endl;
+    }
+  } 
   return 0;
 }
